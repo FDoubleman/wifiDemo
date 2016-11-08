@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style
+        name="DialogStyle">
+        <item name="android:windowFrame">@null</item><!-- 该界面对应的前景图片 -->
+        <item name="android:windowIsFloating">true</item><!-- 是否悬浮窗类型 -->
+        <item name="android:windowIsTranslucent">true</item><!-- 是否透明 -->
+        <item name="android:windowNoTitle">true</item><!-- 是否带有title -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp">
+
+        <TextView
+            android:id="@+id/ssid_text"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="Wifi_12345xxxxxabc"
+            android:textColor="#4F4F4F"
+            android:textSize="18sp" />
+        <TextView
+            android:textSize="12sp"
+            android:id="@+id/tv_wifistatus"
+            android:layout_marginLeft="6dp"
+            android:text="(已保存)"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ssid_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/ssid_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/lock_n_y_h" />
+    </RelativeLayout>
+
+</LinearLayout>
